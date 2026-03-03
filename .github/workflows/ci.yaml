@@ -22,7 +22,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r flask/examples/celery/requirements.txt
+        pip install -r examples/celery/requirements.txt
         pip install flake8 pytest
 
     - name: Run PEP8 (flake8)
