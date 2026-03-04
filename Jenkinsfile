@@ -24,7 +24,7 @@ pipeline {
             }
         }
 
-        stage('Dummy Step') {
+        stage('Dummy Steps') {
             steps {
                 sh 'echo "CI is running successfully"'
             }
